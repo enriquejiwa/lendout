@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LendOut</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+  <header>
+    <a id="nav-top"></a>
+    <div id="nav-belt">
+      <div class="nav-left">
+        <div id="nav-logo">
+          <a href="#" class="nav-logo-link"></a>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div id="nav-carrito">
+          <a href="#" class="nav-carrito-link"></a>
+        </div>
+      </div>
+      <div class="nav-fill">
+        <div id="nav-search">
+          <form>
+            <div class="nav-left">
+            </div>
+            <div class="nav-right">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <input type="submit">
+            </div>
+            <div class="nav-fill">
+              <input type="text" autocomplete="off">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <nav id="nav-main">
+      <div class="nav-left">
+        <div class="nav-shop">
+          <nav class="menu" id="menu">
+            <div class="btn-categorias" id="btn-categorias">
+              <b>Categorías</b>
+              <i class="fas fa-caret-down"></i>
+            </div>
+        
+            <div class="contenedor-grid">
+              <div class="grid" id="grid">
+                <div class="categorias">
+                  <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                  <h3 class="subtitulo">Categorias</h3>
+                  <a href="#" data-categoria="Tecnología"><p style="color:rgb(0, 0, 0)">Tecnología <i class="fas fa-angle-right"></i></p></a>
+                  <a href="#" data-categoria="Música"><p style="color:rgb(0, 0, 0)">Música <i class="fas fa-angle-right"></i></p></a>
+                  <a href="#" data-categoria="Hogar"><p style="color:rgb(0, 0, 0)">Hogar <i class="fas fa-angle-right"></i></p></a>
+                  <a href="#" data-categoria="Transporte"><p style="color:rgb(0, 0, 0)">Transporte <i class="fas fa-angle-right"></i></p></a>
+                  <a href="#" data-categoria="Ropa"><p style="color:rgb(0, 0, 0)">Ropa <i class="fas fa-angle-right"></i></p></a>
+                  <a href="#" data-categoria="Juegos"><p style="color:rgb(0, 0, 0)">Juegos <i class="fas fa-angle-right"></i></p></a>
+                  <a href="#" data-categoria="Libros"><p style="color:rgb(0, 0, 0)">Libros <i class="fas fa-angle-right"></i></p></a>
+                </div>
+        
+                <div class="contenedor-subcategorias">
+                  <div class="subcategoria " data-categoria="Tecnología">
+                    <div class="enlaces-subcategoria">
+                      <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                      <h3 class="subtitulo">Tecnología</h3>
+                      <h4 href="#">Ordenador de mesa</h4>
+                      <h4 href="#">Portátil</h4>
+                      <h4 href="#">Móvil</h4>
+                      <h4 href="#">Pantalla</h4>
+                      <h4 href="#">Tablet</h4>
+                    </div>
+                    <div class="img/">
+                      <a href="#">
+                        <img src="img/categorías/tencología.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/tecnología/camara.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/tecnología/movil.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/tecnología/pantallas.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/tecnología/portatil.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+        
+                  <div class="subcategoria" data-categoria="Música">
+                    <div class="enlaces-subcategoria">
+                      <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                      <h3 class="subtitulo">Música</h3>
+                      <h4 href="#">Instrumentos</h4>
+                      <h4 href="#">Altavoces</h4>
+                      <h4 href="#">Auriculares</h4>
+                    </div>
+                    <div class="banner-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/musica.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/musica/altavoces.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/musica/auriculares.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/musica/piano.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/musica/violin.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+        
+                  <div class="subcategoria" data-categoria="Hogar">
+                    <div class="enlaces-subcategoria">
+                      <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                      <h3 class="subtitulo">Hogar</h3>
+                      <h4 href="#">Cocina</h4>
+                      <h4 href="#">Colada</h4>
+                      <h4 href="#">Salón</h4>
+                      <h4 href="#">Jardín</h4>
+                    </div>
+                    <div class="banner-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/hogar.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/hogar/lavadora.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/hogar/microondas.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/hogar/perro.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/hogar/sofa.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+        
+                  <div class="subcategoria" data-categoria="Transporte">
+                    <div class="enlaces-subcategoria">
+                      <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                      <h3 class="subtitulo">Transporte</h3>
+                      <h4 href="#">Coche</h4>
+                      <h4 href="#">Camión</h4>
+                      <h4 href="#">Bicicleta</h4>
+                      <h4 href="#">Moto</h4>
+                    </div>
+                    <div class="banner-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/transporte.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/transporte/camnion.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/transporte/coche.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/transporte/limusina.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/transporte/moto.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+        
+                  <div class="subcategoria" data-categoria="Ropa">
+                    <div class="enlaces-subcategoria">
+                      <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                      <h3 class="subtitulo">Ropa</h3>
+                      <h4 href="#">Ropa</h4>
+                      <h4 href="#">Zapatos</h4>
+                      <h4 href="#">Accesorios</h4>
+                    </div>
+                    <div class="banner-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/ropa.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/ropa/corbata.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/ropa/reloj.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/ropa/ropa.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/ropa/zapatos.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+        
+                  <div class="subcategoria" data-categoria="Juegos">
+                    <div class="enlaces-subcategoria">
+                      <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                      <h3 class="subtitulo">Juegos</h3>
+                      <h4 href="#">De mesa</h4>
+                      <h4 href="#">Videojuegos</h4>
+                      <h4 href="#">Al aire libre</h4>
+                    </div>
+                    <div class="banner-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/juegos.jpg"">
+                      </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/juegos/cometa.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/juegos/golf.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/juegos/monopoli.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/juegos/play.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+        
+                  <div class="subcategoria" data-categoria="Libros">
+                    <div class="enlaces-subcategoria">
+                      <button class="btn-regresar"><i class="fas fa-arrow-left"></i> Regresar</button>
+                      <h3 class="subtitulo">Libros</h3>
+                      <h4 href="#">Fantasía</h4>
+                      <h4 href="#">Educativo</h4>
+                      <h4 href="#">Ciencia ficción</h4>
+                      <h4 href="#">Drama</h4>
+                    </div>
+                    <div class="banner-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/libros.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                      <a href="#">
+                        <img src="img/categorías/libros/biblia.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/libros/enciclopedia.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/libros/harryPotter.jpg" alt="">
+                      </a>
+                      <a href="#">
+                        <img src="img/categorías/libros/mates.jpg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="nav-right">
+        <a class="nav-a" href="#">
+          <span>ES</span>
+          <i class="fa fa-globe" aria-hidden="true"></i>
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </a>
+        <a class="nav-a" href="#">
+            Iniciar sesión
+          <i class="fa fa-caret-down" aria-hidden="true"></i>
+        </a>
+        
+      </div>
+      <div class="nav-fill">
+        <ul>
+          <li><a href="#"><p style="color:rgba(246, 132, 87, 0.678)">Publicar objeto</p></a></li>
+          <li><a href="#">Lo último</a></li>
+          <li><a href="#">Lo más popular</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="anuncio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="anuncio-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/slides/slide_1.jpg">
+              </div>
+              <div class="item">
+                <img src="img/slides/slide_2.jpg">
+              </div>
+            </div>
+            <a class="left carousel-control" href="#anuncio-carousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="right carousel-control" href="#anuncio-carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="col-lg-3">
+            <div class="col text-center" id="welcome">
+              <h2>Bienvenido</h2>
+              <p>Inicia sesión para una mejor experiencia</p>
+              <button class="btn">Inicia sesión</button>
+              <div class="footer">
+                ¿Primera vez en LendOut? <a href="#">Regístrate</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="col" id="ultimo">
+              <h2>Lo último</h2>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/lo_ultimo/botas.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/lo_ultimo/calculadora.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/lo_ultimo/libros.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/lo_ultimo/desbrozadora.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/lo_ultimo/golf.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/lo_ultimo/secadora.jpg"></a>
+              </a>
+              <div class="footer">
+                <a href="#">Explora los últimos productos anunciados</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="col" id="popular">
+              <h2>Lo más popular</h2>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/popular/boda.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/popular/autocaravana.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/popular/bici.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/popular/guitarra.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/popular/play.jpg"></a>
+              </a>
+              <a href="#" class="thumbnail text-center">
+                <img src="img/popular/thermomix.jpg"></a>
+              </a>
+              <div class="footer">
+                <a href="#">Explora los objetos más destacados</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="top text-center">
+      <a href="#nav-top">Volver arriba</a>
+    </div>
+
+    <div class="middle">
+      <div class="center">
+        <ul>    
+          <li><a href="#">Métodos de pago</a></li>
+        </ul>
+        <ul>    
+          <li><a href="#">Política de envío</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Política de reclamación</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Preguntas frecuentes</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Sobre LendOut</a></li>
+        </ul>
+      </div>
+
+      <ul class="copy text-center">
+        <li><a href="#" class="logo"></a></li>
+        <li><a href="#" class="select"><i class="fa fa-globe" aria-hidden="true"></i> Español</a></li>
+        <li><a href="#" class="select"><i class="flag-icon-us"></i>España</a></li>
+      </ul>
+    </div>
+
+    <div class="bottom">
+      <div class="center">
+        <ul class="copy text-center">
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Aviso de privacidad</a></li>
+          <li>&copy; 2022, LendOut</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
