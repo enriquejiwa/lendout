@@ -9,7 +9,7 @@ const btnDepartamentos = document.getElementById('btn-categorias'),
 	  grid = document.getElementById('grid'),
 	  contenedorEnlacesNav = document.querySelector('#menu .contenedor-enlaces-nav'),
 	  contenedorSubCategorias = document.querySelector('#grid .contenedor-subcategorias'),
-	  esDispositivoMovil = () => window.innerWidth <= 800;
+	  esDispositivoMovil = () => window.innerWidth <= 0;
 
 btnDepartamentos.addEventListener('mouseover', () => {
 	if(!esDispositivoMovil()){
@@ -36,13 +36,6 @@ document.querySelectorAll('#menu .categorias a').forEach((elemento) => {
 	});
 });
 
-
-document.querySelector('#grid .categorias .btn-regresar').addEventListener('click', (e) => {
-	e.preventDefault();
-	grid.classList.remove('activo');
-	btnCerrarMenu.classList.remove('activo');
-});
-
 document.querySelectorAll('#menu .categorias a').forEach((elemento) => {
 	elemento.addEventListener('click', (e) => {
 		if(esDispositivoMovil()){
@@ -54,13 +47,6 @@ document.querySelectorAll('#menu .categorias a').forEach((elemento) => {
 				}
 			});
 		}
-	});
-});
-
-document.querySelectorAll('#grid .contenedor-subcategorias .btn-regresar').forEach((boton) => {
-	boton.addEventListener('click', (e) => {
-		e.preventDefault();
-		contenedorSubCategorias.classList.remove('activo');
 	});
 });
 
