@@ -271,6 +271,11 @@ h4 {
   padding-bottom: 15px;
 }
 
+h5 {
+  color: rgba(255, 255, 255, 0.514);
+  font-size: 14px;
+}
+
 .btn {
   height: 29px;
   padding: 2px 20px;
@@ -291,43 +296,11 @@ h4 {
   color: #111;
 }
 
-#products {
-  padding: 0 0 60px 0;
-}
-
 #products .col {
   background: rgba(19,19,4,.04);
   padding: 15px;
   min-height: 578px;
   position: relative;
-}
-
-#products h2 {
-  margin: 0;
-}
-
-#products img {
-  max-width: 100%;
-}
-
-#products .thumbnail {
-  display: inline-block;
-  padding: 0;
-  border: none;
-  margin: 8px;
-  background: none;
-}
-
-#products .thumbnail:hover {
-  text-decoration: none;
-}
-
-#products .thumbnail .caption {
-  padding: 0;
-  margin: 12px 0 4px 0;
-  display: inline-block;
-  color: #111;
-  font-size: 13px;
 }
 
 #products #welcome {
@@ -346,14 +319,6 @@ h4 {
 
 #products #welcome .btn {
   width: 100%;
-}
-
-#products #ultimo img {
-  max-width: 200px;
-}
-
-#products #popular img {
-  max-width: 200px;
 }
 
 #products .footer {
@@ -655,4 +620,47 @@ footer .bottom a span {
 	width: 50%;
 	height: 50%;
 }
+
+#ultimo-popular img {
+  max-width: 200px;
+}
+
+#ultimo-popular ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+#ultimo-popular li figure {
+  position: relative;
+  padding: 0;
+  border: none;
+  margin: 8px;
+  background: none;
+}
+
+#ultimo-popular li figcaption {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  font-size: 23px;
+  font-weight: 200;
+  background: rgba(0,0,0,.5);
+}
+
+#ultimo-popular li figure:hover figcaption {
+  display: inline-block;
+  text-align: center;
+}
+
+
+
 
