@@ -621,18 +621,18 @@ footer .bottom a span {
 	height: 50%;
 }
 
-#ultimo-popular img {
+#ultimo-popular-ofertas img {
   max-width: 200px;
 }
 
-#ultimo-popular ul {
+#ultimo-popular-ofertas ul {
   list-style: none;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
 }
 
-#ultimo-popular li figure {
+#ultimo-popular-ofertas li figure {
   position: relative;
   padding: 0;
   border: none;
@@ -640,7 +640,7 @@ footer .bottom a span {
   background: none;
 }
 
-#ultimo-popular li figcaption {
+#ultimo-popular-ofertas li figcaption {
   display: none;
   position: absolute;
   top: 0;
@@ -649,14 +649,14 @@ footer .bottom a span {
   right: 0;
   padding: 15px;
   text-align: center;
-  line-height: 80px;
+  line-height: 85px;
   color: white;
   font-size: 23px;
   font-weight: 200;
   background: rgba(0,0,0,.5);
 }
 
-#ultimo-popular li figure:hover figcaption {
+#ultimo-popular-ofertas li figure:hover figcaption {
   display: inline-block;
   text-align: center;
 }
